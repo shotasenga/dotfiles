@@ -36,4 +36,3 @@
     textconv = cssbeautify-cli -f
 [diff "js"]
     textconv = js-beautify -f
-
