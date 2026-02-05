@@ -87,6 +87,10 @@ ln -Tfs $DOT_DIR/emacs "${HOME}/.emacs.d"
 ln -Tfs $DOT_DIR/nvim "${XDG_CONFIG_HOME:-$HOME/.config}/nvim"
 ln -Tfs $DOT_DIR/bin "${HOME}/.bin"
 ln -Tfs $DOT_DIR/claude-code-router "${HOME}/.claude-code-router"
+mkdir -p "${XDG_CONFIG_HOME:-$HOME/.config}/zed"
+ln -Tfs $DOT_DIR/zed/keymap.json "${XDG_CONFIG_HOME:-$HOME/.config}/zed/keymap.json"
+ln -Tfs $DOT_DIR/zed/settings.json "${XDG_CONFIG_HOME:-$HOME/.config}/zed/settings.json"
+
 
 
 echo COMPLETED 🎉

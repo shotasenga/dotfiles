@@ -15,7 +15,8 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
-                                            "^com\\.microsoft\\.VSCode$"
+                                            "^com\\.microsoft\\.VSCode$",
+                                            "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -38,7 +39,8 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
-                                            "^com\\.microsoft\\.VSCode$"
+                                            "^com\\.microsoft\\.VSCode$",
+                                            "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -66,7 +68,8 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
-                                            "^com\\.microsoft\\.VSCode$"
+                                            "^com\\.microsoft\\.VSCode$",
+                                            "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -89,7 +92,8 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
-                                            "^com\\.microsoft\\.VSCode$"
+                                            "^com\\.microsoft\\.VSCode$",
+                                            "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -112,7 +116,8 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
-                                            "^com\\.microsoft\\.VSCode$"
+                                            "^com\\.microsoft\\.VSCode$",
+                                            "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -135,7 +140,8 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
-                                            "^com\\.microsoft\\.VSCode$"
+                                            "^com\\.microsoft\\.VSCode$",
+                                            "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
@@ -163,7 +169,8 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
-                                            "^com\\.microsoft\\.VSCode$"
+                                            "^com\\.microsoft\\.VSCode$",
+                                            "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
                                     }
