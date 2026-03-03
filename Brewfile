@@ -69,7 +69,6 @@ brew "docker-compose"
 
 
 # Cloud and Ops
-brew "hashicorp/tap/terraform"
 brew "act"
 brew "awscli"
 cask "aws-vault"
