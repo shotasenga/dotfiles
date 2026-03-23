@@ -7,18 +7,34 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "disable_ai": false,
+  "terminal": {
+    "option_as_meta": true,
+  },
+  "languages": {
+    "YAML": {
+      "soft_wrap": "editor_width",
+    },
+    "Markdown": {
+      "tab_size": 4,
+    },
+  },
+  "terminal": {
+    "option_as_meta": true,
+  },
+  "vim_mode": false,
   "telemetry": {
     "diagnostics": false,
-    "metrics": false
+    "metrics": false,
   },
   "scrollbar": {
-    "show": "always"
+    "show": "always",
   },
   "sticky_scroll": {
-    "enabled": true
+    "enabled": true,
   },
   "autosave": "on_focus_change",
-  "ui_font_size": 16,
+  "ui_font_size": 14,
   "buffer_font_size": 13,
-  "theme": "Ayu Mirage"
+  "theme": "Nightfox - opaque",
 }
