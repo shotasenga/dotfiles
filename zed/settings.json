@@ -19,9 +19,6 @@
       "tab_size": 4,
     },
   },
-  "terminal": {
-    "option_as_meta": true,
-  },
   "vim_mode": false,
   "telemetry": {
     "diagnostics": false,
