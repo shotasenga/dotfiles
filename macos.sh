@@ -92,5 +92,8 @@ ln -Tfs $DOT_DIR/zed/keymap.json "${XDG_CONFIG_HOME:-$HOME/.config}/zed/keymap.j
 ln -Tfs $DOT_DIR/zed/settings.json "${XDG_CONFIG_HOME:-$HOME/.config}/zed/settings.json"
 
 
+# OS preference
+defaults write -g NSMenuEnableActionImages -bool NO # no icons https://daringfireball.net/2026/03/what_to_do_about_those_menu_item_icons_in_macos_26_tahoe
+
 
 echo COMPLETED 🎉
