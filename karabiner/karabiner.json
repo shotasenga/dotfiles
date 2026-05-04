@@ -16,6 +16,7 @@
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
                                             "^com\\.microsoft\\.VSCode$",
+                                            "^com\\.jetbrains\\.pycharm$",
                                             "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
@@ -40,6 +41,7 @@
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
                                             "^com\\.microsoft\\.VSCode$",
+                                            "^com\\.jetbrains\\.pycharm$",
                                             "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
@@ -69,6 +71,7 @@
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
                                             "^com\\.microsoft\\.VSCode$",
+                                            "^com\\.jetbrains\\.pycharm$",
                                             "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
@@ -93,6 +96,7 @@
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
                                             "^com\\.microsoft\\.VSCode$",
+                                            "^com\\.jetbrains\\.pycharm$",
                                             "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
@@ -117,6 +121,7 @@
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
                                             "^com\\.microsoft\\.VSCode$",
+                                            "^com\\.jetbrains\\.pycharm$",
                                             "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
@@ -141,6 +146,7 @@
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
                                             "^com\\.microsoft\\.VSCode$",
+                                            "^com\\.jetbrains\\.pycharm$",
                                             "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
@@ -170,6 +176,7 @@
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
                                             "^com\\.microsoft\\.VSCode$",
+                                            "^com\\.jetbrains\\.pycharm$",
                                             "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
