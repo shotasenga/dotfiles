@@ -12,6 +12,7 @@ brew "reattach-to-user-namespace" # for Tmux
 
 cask "alacritty"
 cask "ghostty"
+cask "cmux"
 
 # GNU utils
 brew "coreutils"

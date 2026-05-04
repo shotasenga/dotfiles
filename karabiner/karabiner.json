@@ -15,6 +15,7 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
+                                            "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.pycharm$",
                                             "^dev\\.zed\\.Zed$"
@@ -40,6 +41,7 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
+                                            "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.pycharm$",
                                             "^dev\\.zed\\.Zed$"
@@ -70,6 +72,7 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
+                                            "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.pycharm$",
                                             "^dev\\.zed\\.Zed$"
@@ -95,6 +98,7 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
+                                            "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.pycharm$",
                                             "^dev\\.zed\\.Zed$"
@@ -120,6 +124,7 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
+                                            "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.pycharm$",
                                             "^dev\\.zed\\.Zed$"
@@ -145,6 +150,7 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
+                                            "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.pycharm$",
                                             "^dev\\.zed\\.Zed$"
@@ -175,6 +181,7 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
+                                            "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.pycharm$",
                                             "^dev\\.zed\\.Zed$"
