@@ -47,6 +47,7 @@ cask "charles"
 # Manually install Xcode. It's too heavy to install it via Brewfile
 # mas "Xcode", id: 497799835
 brew "neovim"
+brew "helix"
 cask "emacs"
 cask "visual-studio-code"
 cask "zed"
