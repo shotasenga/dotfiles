@@ -35,7 +35,6 @@ mkdir -p "${XDG_CONFIG_HOME:-$HOME/.config}"
 
 # GUI environmneet
 ln -Tfs $DOT_DIR/karabiner "${HOME}/.config/karabiner"
-ln -Tfs $DOT_DIR/espanso "${HOME}/.config/espanso"
 
 
 # Terminal
