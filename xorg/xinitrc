@@ -47,4 +47,5 @@ Section "Monitor"
   Option "Preferred Mode" "1600x1200"
 EndSection
 
+export TERMINAL=ghostty
 exec i3
