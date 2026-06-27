@@ -4,6 +4,11 @@ set -ex
 
 DOT_DIR=$(realpath $(dirname "${BASH_SOURCE[0]}"))
 
+# deactivate mise as it can interrupt the build process
+if [ $(command -v mise) ]; then
+    mise deactivate
+fi
+
 # Install yay
 if [ ! $(command -v yay) ]; then
     INSTALL_TARGET_DIR=/opt/yay
@@ -34,6 +39,7 @@ yay -S --needed xidlehook
 ln -Tfs $DOT_DIR/xorg/xinitrc "${HOME}/.xinitrc"
 ln -Tfs $DOT_DIR/xorg/xprofile "${HOME}/.xprofile"
 ln -Tfs $DOT_DIR/xorg/Xresources "${HOME}/.Xresources"
+ln -Tfs $DOT_DIR/xorg/Xmodmap "${HOME}/.Xmodmap"
 ln -Tfs $DOT_DIR/gtk/gtkrc-2.0 "${HOME}/.gtkrc-2.0"
 ln -Tfs $DOT_DIR/autorandr "${XDG_CONFIG_HOME:-$HOME/.config}/autorandr"
 # sudo cp -a $DOT_DIR/x11/acpid/autorandr.sh /etc/acpid/autorandr.sh # ensure the file is executable
@@ -45,11 +51,10 @@ ln -Tfs $DOT_DIR/autorandr "${XDG_CONFIG_HOME:-$HOME/.config}/autorandr"
 # GUI environmneet
 sudo pacman -S --needed i3-wm xss-lock i3lock polkit
 sudo pacman -S --needed rofi dunst maim xclip
-yay -S --needed dragon-drop kmonad-bin
+yay -S --needed dragon-drop 
 
 ln -Tfs $DOT_DIR/i3 "${XDG_CONFIG_HOME:-$HOME/.config}/i3"
 ln -Tfs $DOT_DIR/dunst "${XDG_CONFIG_HOME:-$HOME/.config}/dunst"
-# cp -a "${XDG_CONFIG_HOME:-$HOME/.config}/kmonad" /etc/kmonad
 
 
 # Terminal
@@ -103,5 +108,9 @@ sudo pacman -S --needed ttf-hack
 # Other applications
 yay -S --needed syncthing anki-official-binary-bundle google-chrome slack-desktop
 
+
+if [ $(command -v mise) ]; then
+    mise activate
+fi
 
 echo COMPLETED 🎉
