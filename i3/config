@@ -218,5 +218,5 @@ gaps outer 4
 # Application/Window specific behaviour
 # use xprop to get window properties. see: https://i3wm.org/docs/userguide.html#command_criteria for criteria
 for_window [class="1Password"] floating enable, resize set 50 ppt 70 ppt, move absolute position center
-for_window [class="Google-chrome" window_role="pop-up"] floating enable, resize set 30 ppt 30 ppt, move absolute position center
+for_window [class="firefox" window_role="pop-up"] floating enable, resize set 30 ppt 30 ppt, move absolute position center
 for_window [class="Dragon-drag-and-drop"] sticky enable

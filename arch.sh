@@ -48,10 +48,9 @@ ln -Tfs $DOT_DIR/autorandr "${XDG_CONFIG_HOME:-$HOME/.config}/autorandr"
 # sudo cp -a $DOT_DIR/xorg/20-intel.conf /etc/X11/xorg.conf.d/20-intel.conf
 
 
-# GUI environmneet
+# Desktop
 sudo pacman -S --needed i3-wm xss-lock i3lock polkit
 sudo pacman -S --needed rofi dunst maim xclip
-yay -S --needed dragon-drop 
 
 ln -Tfs $DOT_DIR/i3 "${XDG_CONFIG_HOME:-$HOME/.config}/i3"
 ln -Tfs $DOT_DIR/dunst "${XDG_CONFIG_HOME:-$HOME/.config}/dunst"
@@ -59,14 +58,12 @@ ln -Tfs $DOT_DIR/dunst "${XDG_CONFIG_HOME:-$HOME/.config}/dunst"
 
 # Terminal
 sudo pacman -S --needed ghostty
-# sudo pacman -S --needed wezterm alacritty
 sudo pacman -S --needed fish fzf fd tmux
 yay -S --needed autojump
 
 ln -Tfs $DOT_DIR/fish "${XDG_CONFIG_HOME:-$HOME/.config}/fish"
 ln -Tfs $DOT_DIR/tmux/tmux.conf "${HOME}/.tmux.conf"
 ln -Tfs $DOT_DIR/tmux/tmux.arch.conf "${HOME}/.tmux.env.conf"
-ln -Tfs $DOT_DIR/wezterm "${XDG_CONFIG_HOME:-$HOME/.config}/wezterm"
 
 if [[ "$SHELL" != *fish ]]; then
     echo run the command below to change your shell to fish
@@ -106,8 +103,7 @@ sudo pacman -S --needed ttf-hack
 
 
 # Other applications
-yay -S --needed syncthing anki-official-binary-bundle google-chrome slack-desktop
-
+yay -S --needed firefox
 
 if [ $(command -v mise) ]; then
     mise activate
