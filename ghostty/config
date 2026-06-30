@@ -6,3 +6,9 @@ macos-option-as-alt = true
 quick-terminal-position = bottom
 quick-terminal-animation-duration = 0.1
 quick-terminal-autohide = false
+
+# theme = Adwaita Dark
+# theme = Ayu
+# theme = Citruszest
+# theme = Hardcore
+theme = Nvim Dark
