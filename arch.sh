@@ -71,11 +71,10 @@ if [[ "$SHELL" != *fish ]]; then
 fi
 
 mkdir -p "${HOME}/.tmux"
-if [ ! -e "${HOME}/.tmux/tmux-open" ]; then
-    # https://github.com/tmux-plugins/tmux-open
-    git clone git@github.com:tmux-plugins/tmux-open.git "${HOME}/.tmux/tmux-open"
+if [ ! -e "${HOME}/.tmux/plugins/tpm" ]; then
+    # https://github.com/tmux-plugins/tpm
+    git clone git@github.com:tmux-plugins/tpm.git "${HOME}/.tmux/plugins/tpm"
 fi
-
 
 # Dev tools
 echo TODO: You need to manully run `all-the-icons-install-fonts` for the icons on Emacs

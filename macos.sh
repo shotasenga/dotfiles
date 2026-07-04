@@ -57,13 +57,13 @@ if [[ "$SHELL" != *fish ]]; then
 fi
 
 # - tmux plugins
-if [ ! -d "${HOME}/.tmux" ]; then
-    mkdir -p "${HOME}/.tmux"
+if [ ! -d "${HOME}/.tmux/plugins" ]; then
+    mkdir -p "${HOME}/.tmux/plugins"
 fi
 
-if [ ! -e "${HOME}/.tmux/tmux-open" ]; then
-    # https://github.com/tmux-plugins/tmux-open
-    git clone git@github.com:tmux-plugins/tmux-open.git "${HOME}/.tmux/tmux-open"
+if [ ! -e "${HOME}/.tmux/plugins/tpm" ]; then
+    # https://github.com/tmux-plugins/tpm
+    git clone git@github.com:tmux-plugins/tpm.git "${HOME}/.tmux/plugins/tpm"
 fi
 
 # - ssh key
