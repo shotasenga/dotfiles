@@ -1,8 +1,3 @@
-tap "homebrew/bundle"
-tap "hashicorp/tap"
-
-brew "mas"
-
 # Terminal
 brew "fish"
 brew "tmux"
@@ -12,7 +7,6 @@ brew "reattach-to-user-namespace" # for Tmux
 
 cask "alacritty"
 cask "ghostty"
-cask "cmux"
 
 # GNU utils
 brew "coreutils"
@@ -31,7 +25,7 @@ brew "imagemagick"
 brew "jq"
 brew "jujutsu"
 brew "macos-trash"
-brew "mike-engel/jwt-cli/jwt-cli"
+brew "jwt-cli"
 brew "mise"
 brew "openssh"
 brew "pstree"
@@ -45,6 +39,7 @@ cask "charles"
 
 # Editor/IDE
 # Manually install Xcode. It's too heavy to install it via Brewfile
+brew "mas"
 # mas "Xcode", id: 497799835
 brew "neovim"
 brew "helix"
@@ -90,6 +85,7 @@ cask "alfred"
 mas "Dato", id: 1470584107
 cask "appcleaner"
 brew "sox"
+cask "tldraw"
 
 
 # Fonts
