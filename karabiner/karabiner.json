@@ -17,7 +17,7 @@
                                             "^com\\.mitchellh\\.ghostty$",
                                             "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
-                                            "^com\\.jetbrains\\.pycharm$",
+                                            "^com\\.jetbrains\\.",
                                             "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
@@ -43,7 +43,7 @@
                                             "^com\\.mitchellh\\.ghostty$",
                                             "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
-                                            "^com\\.jetbrains\\.pycharm$",
+                                            "^com\\.jetbrains\\.",
                                             "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
@@ -74,7 +74,7 @@
                                             "^com\\.mitchellh\\.ghostty$",
                                             "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
-                                            "^com\\.jetbrains\\.pycharm$",
+                                            "^com\\.jetbrains\\.",
                                             "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
@@ -100,7 +100,7 @@
                                             "^com\\.mitchellh\\.ghostty$",
                                             "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
-                                            "^com\\.jetbrains\\.pycharm$",
+                                            "^com\\.jetbrains\\.",
                                             "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
@@ -126,7 +126,7 @@
                                             "^com\\.mitchellh\\.ghostty$",
                                             "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
-                                            "^com\\.jetbrains\\.pycharm$",
+                                            "^com\\.jetbrains\\.",
                                             "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
@@ -152,7 +152,7 @@
                                             "^com\\.mitchellh\\.ghostty$",
                                             "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
-                                            "^com\\.jetbrains\\.pycharm$",
+                                            "^com\\.jetbrains\\.",
                                             "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
@@ -183,7 +183,7 @@
                                             "^com\\.mitchellh\\.ghostty$",
                                             "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
-                                            "^com\\.jetbrains\\.pycharm$",
+                                            "^com\\.jetbrains\\.",
                                             "^dev\\.zed\\.Zed$"
                                         ],
                                         "type": "frontmost_application_unless"
