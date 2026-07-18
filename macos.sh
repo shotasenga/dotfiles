@@ -86,7 +86,10 @@ ln -Tfs $DOT_DIR/mise "${XDG_CONFIG_HOME:-$HOME/.config}/mise"
 ln -Tfs $DOT_DIR/emacs "${HOME}/.emacs.d"
 ln -Tfs $DOT_DIR/nvim "${XDG_CONFIG_HOME:-$HOME/.config}/nvim"
 ln -Tfs $DOT_DIR/helix "${XDG_CONFIG_HOME:-$HOME/.config}/helix"
-ln -Tfs $DOT_DIR/bin "${HOME}/.bin"
+mkdir -p "${HOME}/.local/bin"
+for script in "${DOT_DIR}"/bin/*; do
+  ln -Tfs "${script}" "${HOME}/.local/bin/$(basename "${script}")"
+done
 ln -Tfs $DOT_DIR/claude-code-router "${HOME}/.claude-code-router"
 mkdir -p "${XDG_CONFIG_HOME:-$HOME/.config}/zed"
 ln -Tfs $DOT_DIR/zed/keymap.json "${XDG_CONFIG_HOME:-$HOME/.config}/zed/keymap.json"
