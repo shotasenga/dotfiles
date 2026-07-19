@@ -10,5 +10,5 @@ quick-terminal-autohide = false
 # theme = Adwaita Dark
 # theme = Ayu
 # theme = Citruszest
-# theme = Hardcore
-theme = Nvim Dark
+theme = Hardcore
+# theme = Nvim Dark
