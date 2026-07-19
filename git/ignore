@@ -4,6 +4,7 @@
 \#*
 \.#*
 .idea
+.zed
 *.iml
 *.sublime-project
 *.sublime-workspace
