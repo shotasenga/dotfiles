@@ -56,7 +56,7 @@ brew "aspell"
 brew "defaultbrowser"
 cask "firefox"
 cask "google-chrome"
-cask "finicky"
+# cask "finicky"
 
 
 # VM/Container

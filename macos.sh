@@ -111,8 +111,8 @@ ln -Tfs $DOT_DIR/zed/settings.json "${XDG_CONFIG_HOME:-$HOME/.config}/zed/settin
 
 
 # Browser
-defaultbrowser finicky
-ln -Tfs $DOT_DIR/finicky/finicky.js "${HOME}/.finicky.js"
+defaultbrowser firefox
+# ln -Tfs $DOT_DIR/finicky/finicky.js "${HOME}/.finicky.js"
 
 # OS preference
 # use `defaults delete <application> [config]` to go back to the default
