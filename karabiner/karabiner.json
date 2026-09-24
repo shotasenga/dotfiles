@@ -15,7 +15,6 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
-                                            "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.",
                                             "^dev\\.zed\\.Zed$"
@@ -41,7 +40,6 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
-                                            "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.",
                                             "^dev\\.zed\\.Zed$"
@@ -72,7 +70,6 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
-                                            "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.",
                                             "^dev\\.zed\\.Zed$"
@@ -98,7 +95,6 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
-                                            "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.",
                                             "^dev\\.zed\\.Zed$"
@@ -124,7 +120,6 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
-                                            "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.",
                                             "^dev\\.zed\\.Zed$"
@@ -150,7 +145,6 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
-                                            "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.",
                                             "^dev\\.zed\\.Zed$"
@@ -181,7 +175,6 @@
                                             "^com\\.github\\.wez\\.wezterm$",
                                             "^org\\.alacritty$",
                                             "^com\\.mitchellh\\.ghostty$",
-                                            "^com\\.cmuxterm\\.app$",
                                             "^com\\.microsoft\\.VSCode$",
                                             "^com\\.jetbrains\\.",
                                             "^dev\\.zed\\.Zed$"
@@ -303,14 +296,6 @@
                 {
                     "from": { "key_code": "f4" },
                     "to": [{ "key_code": "launchpad" }]
-                },
-                {
-                    "from": { "key_code": "f5" },
-                    "to": [{ "key_code": "illumination_decrement" }]
-                },
-                {
-                    "from": { "key_code": "f6" },
-                    "to": [{ "key_code": "illumination_increment" }]
                 },
                 {
                     "from": { "key_code": "f9" },
