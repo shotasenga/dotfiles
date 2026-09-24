@@ -1,6 +1,7 @@
 # Terminal
 brew "fish"
 brew "tmux"
+brew "herdr"
 
 brew "readline"
 brew "reattach-to-user-namespace" # for Tmux
