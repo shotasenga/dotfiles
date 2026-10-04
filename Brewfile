@@ -89,6 +89,7 @@ mas "Dato", id: 1470584107
 cask "appcleaner"
 brew "sox"
 cask "tldraw"
+cask "typewhisper/tap/typewhisper"
 
 
 # Fonts
