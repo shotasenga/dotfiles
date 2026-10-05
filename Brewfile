@@ -61,6 +61,7 @@ cask "google-chrome"
 
 
 # VM/Container
+brew "lima"
 brew "colima"
 brew "docker"
 brew "docker-compose"
