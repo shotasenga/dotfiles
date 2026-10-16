@@ -4,9 +4,9 @@ function fzf_complete_asdf
 
     switch $subcmd
         case install
-            asdf list-all $argv[3] | fzf -m +s --tac -q "$argv[4..]"
+            asdf list-all $argv[3] | fzf -m +s --tac -q (commandline -t)
         case uninstall
-            asdf list $argv[3] | fzf -m +s --tac -q "$argv[4..]"
+            asdf list $argv[3] | fzf -m +s --tac -q (commandline -t)
         case '*'
             return
     end

@@ -4,21 +4,16 @@
 # - $FZF_FILE_COMMAND (default: vim emacs less)
 # - $FZF_DIR_COMMAND  (default: cd)
 
-function fzf_complete -d "fuzzy search using fzf for what you have in `commandline`"
-    set -l commandline
-
-    for el in (commandline | string split " ")
-        if [ "$el" ]
-            set -a commandline $el
-        end
-    end
-
-    set -l func_name "fzf_complete_$commandline[1]"
+# Completers get the current process's tokens before the cursor's token as $argv
+# and use the cursor's token (`commandline -t`) as the fzf query.
+function fzf_complete -d "fuzzy search using fzf for the token under the cursor"
+    set -l tokens (commandline -pcx)
+    set -l func_name "fzf_complete_$tokens[1]"
 
     if type -q $func_name
-        $func_name $commandline | __fzf_complete
+        $func_name $tokens | __fzf_complete
     else
-        __fzf_complete_fallback $commandline | __fzf_complete
+        __fzf_complete_fallback $tokens | __fzf_complete
     end
 end
 
@@ -39,20 +34,22 @@ function __fzf_complete_fallback -d "fallback function for path completion"
 
     switch $cmd
         case $FZF_FILE_COMMAND
-            eval $FZF_LIST_FILE | fzf -m -q "$argv[2..]"
+            eval $FZF_LIST_FILE | fzf -m -q (commandline -t)
         case $FZF_DIR_COMMAND
-            eval $FZF_LIST_DIR | fzf -m -q "$argv[2..]"
+            eval $FZF_LIST_DIR | fzf -m -q (commandline -t)
         case "*"
-            eval $FZF_LIST_ALL | fzf -m -q "$argv[2..]"
+            eval $FZF_LIST_ALL | fzf -m -q (commandline -t)
     end
 end
 
-function __fzf_complete -d "pipe STDIN to the `commandline`"
+function __fzf_complete -d "replace the token under the cursor with STDIN"
     set -l result
     while read line
         set -a result $line
     end
 
-    commandline -a -- "$result"
+    if set -q result[1]
+        commandline -rt -- "$result"
+    end
     commandline -f repaint
 end
