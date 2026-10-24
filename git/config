@@ -1,8 +1,9 @@
 [core]
     autocrlf = false
     excludesfile = ~/.config/git/ignore
-    hooksPath = ~/.config/git/hooks
 	ignorecase = false
+[user]
+    useConfigOnly = true
 [alias]
     st = status
     co = checkout

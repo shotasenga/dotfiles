@@ -1,0 +1,6 @@
+#!/bin/bash
+# A global user.name/email makes user.useConfigOnly a no-op, so every repo would commit as that identity.
+if git config --blob :git/config --get-regexp '^user\.(name|email)$' >/dev/null; then
+    echo "git/config: remove global user.name/email; set them per repo with --local" >&2
+    exit 1
+fi

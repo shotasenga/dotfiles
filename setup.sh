@@ -21,3 +21,5 @@ case $(uname -s) in
         exit 1
         ;;
 esac
+
+git -C "$DOT_DIR" config --local core.hooksPath .githooks
