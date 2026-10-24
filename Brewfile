@@ -43,9 +43,8 @@ cask "charles"
 brew "mas"
 # mas "Xcode", id: 497799835
 brew "neovim"
-brew "helix"
 cask "emacs"
-cask "visual-studio-code"
+# cask "visual-studio-code"
 cask "zed"
 
 brew "aspell"

@@ -99,7 +99,6 @@ ln -Tfs $DOT_DIR/git "${XDG_CONFIG_HOME:-$HOME/.config}/git"
 ln -Tfs $DOT_DIR/mise "${XDG_CONFIG_HOME:-$HOME/.config}/mise"
 ln -Tfs $DOT_DIR/emacs "${HOME}/.emacs.d"
 ln -Tfs $DOT_DIR/nvim "${XDG_CONFIG_HOME:-$HOME/.config}/nvim"
-ln -Tfs $DOT_DIR/helix "${XDG_CONFIG_HOME:-$HOME/.config}/helix"
 mkdir -p "${HOME}/.local/bin"
 for script in "${DOT_DIR}"/bin/*; do
   ln -Tfs "${script}" "${HOME}/.local/bin/$(basename "${script}")"
