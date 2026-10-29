@@ -3,6 +3,7 @@ set relativenumber number
 set tabstop=2 shiftwidth=2 expandtab
 set backspace=indent,eol,start
 set hls
+set termguicolors
 
 
 " disable editing in read-only mode
@@ -16,3 +17,8 @@ function! RONoEdit()
   endif
 endfunction
 
+
+lua << LUA
+vim.pack.add({ "https://github.com/ChmaraX/herdr-nvim" })
+require("herdr-nvim").setup({})
+LUA

@@ -5,6 +5,29 @@
                 "parameters": { "basic.to_if_held_down_threshold_milliseconds": 0 },
                 "rules": [
                     {
+                        "description": "Ghostty: middle click sends ctrl+click (opens links in herdr)",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.mitchellh\\.ghostty$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": { "pointing_button": "button3" },
+                                "to": [
+                                    {
+                                        "modifiers": ["left_control"],
+                                        "pointing_button": "button1"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "More Emacs/readline bindings everywhere (ctrl+npbf to arrow keys and ctrl+m to return/enter)",
                         "manipulators": [
                             {
@@ -284,6 +307,14 @@
                         "is_pointing_device": true,
                         "product_id": 560,
                         "vendor_id": 13364
+                    },
+                    "ignore": false
+                },
+                {
+                    "identifiers": {
+                        "is_pointing_device": true,
+                        "product_id": 4145,
+                        "vendor_id": 14648
                     },
                     "ignore": false
                 }

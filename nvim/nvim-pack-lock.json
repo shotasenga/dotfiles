@@ -1,0 +1,8 @@
+{
+  "plugins": {
+    "herdr-nvim": {
+      "rev": "b7c69cab2c1eb8754b505061e942fffc4a557a3e",
+      "src": "https://github.com/ChmaraX/herdr-nvim"
+    }
+  }
+}
