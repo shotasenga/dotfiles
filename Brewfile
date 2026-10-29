@@ -63,6 +63,7 @@ cask "google-chrome"
 brew "lima"
 brew "colima"
 brew "docker"
+brew "docker-buildx"
 brew "docker-compose"
 # cask "docker" # use colima
 # cask "vagrant"

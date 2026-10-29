@@ -103,7 +103,6 @@ mkdir -p "${HOME}/.local/bin"
 for script in "${DOT_DIR}"/bin/*; do
   ln -Tfs "${script}" "${HOME}/.local/bin/$(basename "${script}")"
 done
-ln -Tfs $DOT_DIR/claude-code-router "${HOME}/.claude-code-router"
 mkdir -p "${XDG_CONFIG_HOME:-$HOME/.config}/zed"
 ln -Tfs $DOT_DIR/zed/keymap.json "${XDG_CONFIG_HOME:-$HOME/.config}/zed/keymap.json"
 ln -Tfs $DOT_DIR/zed/settings.json "${XDG_CONFIG_HOME:-$HOME/.config}/zed/settings.json"
